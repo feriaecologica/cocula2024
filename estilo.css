@@ -61,3 +61,37 @@
   .min{
     min-width: 550px;
   }
+
+
+  .imgParticipantes img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  @media screen and (max-width: 401px) {
+    .imgParticipantes img {
+      max-width: 400px;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .imgParticipantes img {
+      max-width: 100%;      
+    }
+  }
+
+
+  .imgLogo img{
+    max-width: 250px;   
+    height: auto;
+  }  
+  @media screen and (max-width: 401px) {
+    .imgLogo img {
+      max-width: 170px;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    .imgLogo img {
+      max-width: 250px;
+    }
+  }
