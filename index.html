@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>1a. Feria Ecológica - Tec Cocula</title>
     <link rel="stylesheet" type="text/css" href="estilo.css" />
+   
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -13,6 +14,7 @@
   </head>
 
   <body class="bosque min">
+ 
     <div style="margin-bottom: 10px" class="fondo-azul">
       <div class="row row justify-content-md-center">
         <div class="col-lg-2 col-12 text-center">
@@ -73,28 +75,28 @@
           </div>
           <div class="col-12">
             <div class="row">
-            <div class="col-6">
-              <p class="justificar">Contaremos con:</p>
-              <ul>
-                <li>Exposiciones</li>
-                <li>Conferencias</li>
-                <li>Instituciones ambientales</li>
-                <li>Empresas sustentables</li>
-                <li>Consultores ambientales</li>
-                <li>Artesanías</li>
-                <li>Custodios de semillas,</li>
-                <li>Proyectos académicos ambientales</li>
-              </ul>
+              <div class="col-6">
+                <p class="justificar">Contaremos con:</p>
+                <ul>
+                  <li>Exposiciones</li>
+                  <li>Conferencias</li>
+                  <li>Instituciones ambientales</li>
+                  <li>Empresas sustentables</li>
+                  <li>Consultores ambientales</li>
+                  <li>Artesanías</li>
+                  <li>Custodios de semillas,</li>
+                  <li>Proyectos académicos ambientales</li>
+                </ul>
+              </div>
+              <div class="col-6 imgLogo">
+                <img
+                  src="img/logoFeria.png"
+                  alt="logo feria"
+                  title="1a. Feria Ecológica - Tec Cocula"
+                  class="rounded"
+                />
+              </div>
             </div>
-            <div class="col-6  imgLogo">
-              <img
-                src="img/logoFeria.png"
-                alt="logo feria"
-                title="1a. Feria Ecológica - Tec Cocula"
-                class="rounded"
-              />
-            </div>
-        </div>
           </div>
         </div>
 
@@ -114,16 +116,16 @@
         <p class="mandarian-bold mt-2">Croquis:</p>
 
         <div class="col-12 text-center">
-            <a href="#" data-toggle="modal" data-target="#MCroquis">
-           <img
-            src="img/Croquis1.png"
-            alt="croquis"
-            style="min-width: 300px; max-width: 600px"
-            height="500px "
-            title="Clic para abrir distribución de proyectos y stands"
-            class="rounded"           
-          />
-        </a>
+          <a href="#" data-toggle="modal" data-target="#MCroquis">
+            <img
+              src="img/Croquis1.png"
+              alt="croquis"
+              style="min-width: 300px; max-width: 600px"
+              height="500px "
+              title="Clic para abrir distribución de proyectos y stands"
+              class="rounded"
+            />
+          </a>
         </div>
 
         <p class="mandarian-bold mt-2">Programa de conferencias:</p>
@@ -173,7 +175,11 @@
               <tr>
                 <td rowspan="3">9:00 hrs.</td>
                 <td class="mandarian-bold">Proyecto de vida</td>
-                <td rowspan="3"><a href="#" data-toggle="modal" data-target="#explanada">Explanada</a></td>
+                <td rowspan="3">
+                  <a href="#" data-toggle="modal" data-target="#explanada"
+                    >Explanada</a
+                  >
+                </td>
               </tr>
               <tr>
                 <td>Mtro. Alfonso Pompa Padilla</td>
@@ -203,7 +209,11 @@
                 <td class="mandarian-bold">
                   Importancia del APFF Sierra de Quila
                 </td>
-                <td rowspan="3"><a href="#" data-toggle="modal" data-target="#explanada">Explanada</a></td>
+                <td rowspan="3">
+                  <a href="#" data-toggle="modal" data-target="#explanada"
+                    >Explanada</a
+                  >
+                </td>
               </tr>
               <tr>
                 <td>Ing. Marduck Cruz Bustamante, Ing. Gustavo Flores</td>
@@ -288,59 +298,167 @@
       </div>
     </div>
 
- <!-- Modal explanada-->
- <div class="modal fade" id="explanada" tabindex="-1" role="dialog" aria-labelledby="explanada" aria-hidden="true">
-    <div class="modal-dialog">
+    <!-- Modal explanada-->
+    <div
+      class="modal fade"
+      id="explanada"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="explanada"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
         <div class="modal-content">
-            <!-- Modal Header -->
-            <div class="modal-header">
-                <h4 class="modal-title">Explanada y espaciopara stands</h4>
-                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-            </div>
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Explanada y espaciopara stands</h4>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
 
-            <!-- Modal body -->
-            <div class="modal-body">
-                <img src="img/explanada1.jpg" alt="Espacio para stands" width="360" height="270" style="width:100%;">
-            </div>
+          <!-- Modal body -->
+          <div class="modal-body">
+            <img
+              src="img/explanada1.jpg"
+              alt="Espacio para stands"
+              width="360"
+              height="270"
+              style="width: 100%"
+            />
+          </div>
 
-            <!-- Modal footer -->
-            <div class="modal-footer">
-                <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
-            </div>
-
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">
+              Cerrar
+            </button>
+          </div>
         </div>
+      </div>
     </div>
-</div>
 
-
- <!-- Modal croquis-->
- <div class="modal fade" id="MCroquis" tabindex="-1" role="dialog" aria-labelledby="MCroquis" aria-hidden="true">
-    <div class="modal-dialog">
+    <!-- Modal croquis-->
+    <div
+      class="modal fade"
+      id="MCroquis"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="MCroquis"
+      aria-hidden="true"      
+    >
+      <div class="modal-dialog">
         <div class="modal-content">
-            <!-- Modal Header -->
-            <div class="modal-header">
-                <h4 class="modal-title">Croquis de stands y proyectos</h4>
-                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-            </div>
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Croquis de stands y proyectos</h4>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
 
-            <!-- Modal body -->
-            <div class="modal-body">
-                <img src="img/Croquis1.png" alt="Croquis" width="100%" height="auto">
-            </div>
+          <!-- Modal body -->
+          <div class="modal-body">
+         
+              <img
+                src="img/Croquis2.png"
+                alt="Croquis"        
+                width="600px"
+                height="542px"         
+                usemap="#map"            
+              />
+            
+          </div>
 
-            <!-- Modal footer -->
-            <div class="modal-footer">
-                <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
-            </div>
+          <map name="map">
+            <area target="_blank" 
+            alt="invernaderos" title="invernaderos" class="puntero"
+              coords="393,463,509,513,558,411,440,360" shape="poly"></area>        
+            <area target="_blank" 
+            alt="Edificio C" title="REDI y edificio C" class="puntero"
+              coords="319,311,303,331,376,387,392,368" shape="poly"></area>  
+            <area target="_blank" 
+            alt="Edificio B" title="Biblioteca" class="puntero"
+            coords="259,243,245,263,302,306,319,288" shape="poly"></area>  
+            <area target="_blank" 
+            alt="Lombricompostas" title="Lombricompostas" class="puntero"
+             coords="413,226,383,209,358,251,388,268" shape="poly"></area>  
+            <area target="_blank" 
+            alt="Explanada" title="Stands" class="puntero"
+             coords="325,177,378,112,418,143,364,208" shape="poly"></area>  
+            <area target="_blank" 
+            alt="Edificio A" title="Edificio A - Planta baja" class="puntero" 
+            data-toggle="modal" data-target="#plantabaja"           
+             coords="262,209,190,153,161,194,229,247" shape="poly"></area>            
+            <area target="_blank" 
+            alt="Área para proyectos" title="Árboles" class="puntero"
+             coords="168,134,192,146,156,193,136,177" shape="poly"></area>  
+            <area target="_blank" 
+            alt="Estacionamientos" title="Estacionamientos" class="puntero"
+             coords="8,81,50,102,82,127,123,366,67,367" shape="poly"></area>  
 
+          </map>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal"
+           >
+              Cerrar
+            </button>
+          </div>
         </div>
+      </div>
     </div>
-</div>
-<!-- Bootstrap JS y dependencias -->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 
+     <!-- Modal plantabaja-->
+     <div
+     class="modal fade"
+     id="plantabaja"
+     tabindex="-1"
+     role="dialog"
+     aria-labelledby="plantabaja"
+     aria-hidden="true"
+   >
+     <div class="modal-dialog">
+       <div class="modal-content">
+         <!-- Modal Header -->
+         <div class="modal-header">
+           <h4 class="modal-title">Planta baja - Edificio A</h4>
+           <button
+             type="button"
+             class="btn-close"
+             data-bs-dismiss="modal"
+           ></button>
+         </div>
+
+         <!-- Modal planta baja -->
+         <div class="modal-body">
+           <img
+             src="img/plantaBaja.png"
+             alt="Proyectos"
+             width="400"
+             height="auto"
+            
+           />
+         </div>
+
+         <!-- Modal footer -->
+         <div class="modal-footer">
+           <button type="button" class="btn btn-danger" data-dismiss="modal">
+             Cerrar
+           </button>
+         </div>
+       </div>
+     </div>
+   </div>
+    <!-- Bootstrap JS y dependencias -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </body>
 </html>
