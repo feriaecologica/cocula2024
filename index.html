@@ -173,9 +173,9 @@
                 <th>Lugar</th>
               </tr>
               <tr>
-                <td rowspan="3">9:00 hrs.</td>
+                <td rowspan="6">9:00 hrs.</td>
                 <td class="mandarian-bold">Proyecto de vida</td>
-                <td rowspan="3">
+                <td rowspan="6">
                   <a href="#" data-toggle="modal" data-target="#explanada"
                     >Explanada</a
                   >
@@ -189,11 +189,23 @@
                   Secretario de la Secretaria de Innovación Ciencia y Tecnología
                 </td>
               </tr>
+              <tr> <td class="mandarian-bold">Inauguración de la Feria Ecológica</td></tr>
+              <tr>
+                <td>Mtra. Iliana Janett Hernández Partida</td>
+              </tr>
+              <tr>
+                <td>
+                  Directora General del Tecnológico Superior de Jalisco
+                </td>
+              </tr>
 
               <tr>
                 <td rowspan="3">10:00 hrs.</td>
                 <td class="mandarian-bold">Doctores de los suelos</td>
-                <td rowspan="3">REDI</td>
+                <td rowspan="3">
+                  <a href="#" data-toggle="modal" data-target="#REDI"
+                  >REDI</a
+                </td>
               </tr>
               <tr>
                 <td>M. en C. Luis Antonio Guapo Mora</td>
@@ -226,7 +238,10 @@
                 <td class="mandarian-bold">
                   Educación ambiental en el área de influencia Sierra de Quila
                 </td>
-                <td rowspan="3">REDI</td>
+                <td rowspan="3">
+                  <a href="#" data-toggle="modal" data-target="#REDI"
+                  >REDI</a
+                </td>
               </tr>
               <tr>
                 <td>Dr. Cesar Camacho Amador</td>
@@ -237,7 +252,10 @@
               <tr>
                 <td rowspan="3">11:30 hrs.</td>
                 <td class="mandarian-bold">Sistema de agua potable</td>
-                <td rowspan="3">REDI</td>
+                <td rowspan="3">
+                  <a href="#" data-toggle="modal" data-target="#REDI"
+                  >REDI</a
+                </td>
               </tr>
               <tr>
                 <td>Biol. Ernesto Gonzáles Padilla</td>
@@ -384,6 +402,51 @@
       </div>
     </div>
 
+
+
+
+      <!-- Modal REDI-->
+      <div
+      class="modal fade"
+      id="REDI"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="REDI"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Conferencias - Sala REDI</h4>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body">
+            <img
+              src="img/REDI.jpg"
+              alt="Espacio para stands"
+              width="360"
+              height="270"
+              style="width: 100%"
+            />
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Modal croquis-->
     <div
       class="modal fade"
@@ -424,6 +487,7 @@
               coords="393,463,509,513,558,411,440,360" shape="poly"></area>        
             <area target="_blank" 
             alt="Edificio C" title="REDI y edificio C" class="puntero"
+            data-toggle="modal" data-target="#edificioC"    
               coords="319,311,303,331,376,387,392,368" shape="poly"></area>  
             <area target="_blank" 
             alt="Edificio B" title="Biblioteca" class="puntero"
@@ -500,6 +564,63 @@
        </div>
      </div>
    </div>
+
+
+    <!-- Edificio C-->
+    <div
+    class="modal fade"
+    id="edificioC"
+    tabindex="-1"
+    role="dialog"
+    aria-labelledby="edificioC"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Edificio C y REDI</h4>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="modal"
+          ></button>
+        </div>
+
+        <!-- Modal planta baja -->
+        <div class="modal-body">
+          <img
+            src="img/EdificioC.jpg"
+            alt="Edificio C"
+            width="400"
+            height="auto"
+           
+          />
+        </div>
+        <div class="modal-body mt-2">
+          <img
+            src="img/programa.jpg"
+            alt="Programa de conferencias"
+            width="400"
+            height="auto"
+           
+          />
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">
+            Cerrar
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
     <!-- Bootstrap JS y dependencias -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
