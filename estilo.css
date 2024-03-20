@@ -132,3 +132,36 @@
   .puntero {
     cursor: default; /* Default cursor */
   }
+
+
+  .fuente {
+    font-size: 16px; /* Tamaño de fuente base */
+  }
+
+@media screen and (min-width: 1023px) {
+  .fuente {
+    font-size: 16px; /* Incremento de tamaño de fuente para pantallas más grandes */
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .fuente {
+    font-size: 24px; /* Incremento adicional de tamaño de fuente para pantallas aún más grandes */
+  }
+}
+
+
+
+
+.modal .modal-dialog {
+  max-width: 510px; /* Set default maximum width for the modal */
+
+}
+
+  /* Media query for screens larger than 1024px */
+  @media screen and (min-width: 1024px) {
+    .modal .modal-dialog {
+      max-width: 1000px; /* Increase maximum width for screens larger than 1024px */
+      height: auto;      
+    }
+  }
