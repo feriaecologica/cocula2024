@@ -101,12 +101,12 @@
   .imgLogo img{
     max-width: 100%;       
   }  
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 401px) {
     .imgLogo img {
-      max-width: 90%;
+      max-width: 250px;
     }
   }
-  @media screen and (min-width: 401px) {
+  @media screen and (min-width: 400px) {
     .imgLogo img {
       max-width: 100%;
     }
