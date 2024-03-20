@@ -81,9 +81,25 @@
   }
 
 
-  .imgLogo img{
-    max-width: 250px;   
+  .croquisRegla img {
+    max-width: 100%;
     height: auto;
+  }
+
+  @media screen and (max-width: 400px) {
+    .croquisRegla img {
+      max-width: 300px;
+    }
+  }
+
+  @media screen and (max-width: 401px) {
+    .croquisRegla img {
+      max-width: 100%;     
+    }
+  }
+/*
+  .imgLogo img{
+    max-width: 70%;       
   }  
   @media screen and (max-width: 401px) {
     .imgLogo img {
@@ -92,6 +108,27 @@
   }
   @media screen and (max-width: 400px) {
     .imgLogo img {
-      max-width: 250px;
+      max-width: 70%;
     }
+  }
+*/
+
+   /* Estilos para la imagen */
+   .zoom-img {
+    width: 500px; /* Ancho inicial de la imagen */
+    transition: transform 0.3s ease; /* Transición suave al aplicar el zoom */
+  }
+
+  /* Estilos para los botones de zoom */
+  .zoom-controls {
+    margin-top: 5px;
+  }
+
+  .puntero:hover {  
+    cursor: pointer; /* puntero cuando se pase mouse */
+   
+  }
+
+  .puntero {
+    cursor: default; /* Default cursor */
   }
