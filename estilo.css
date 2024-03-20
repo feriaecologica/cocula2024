@@ -97,21 +97,21 @@
       max-width: 100%;     
     }
   }
-/*
+
   .imgLogo img{
-    max-width: 70%;       
+    max-width: 100%;       
   }  
-  @media screen and (max-width: 401px) {
-    .imgLogo img {
-      max-width: 170px;
-    }
-  }
   @media screen and (max-width: 400px) {
     .imgLogo img {
-      max-width: 70%;
+      max-width: 90%;
     }
   }
-*/
+  @media screen and (min-width: 401px) {
+    .imgLogo img {
+      max-width: 100%;
+    }
+  }
+
 
    /* Estilos para la imagen */
    .zoom-img {
